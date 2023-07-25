@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Burst</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Tailwind & Daisy Ui-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/9bb8312639.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Custom Styles-->
+    <style>
+      .font-lato {
+        font-family: "Lato", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container lg:mx-auto my-6 lg:my-12 px-5 ">
+      <nav class=" lg:bg-[#F85559] px-4 rounded-[600px]">
+        <div class="navbar flex justify-between  flex-row-reverse lg:flex-row">
+          <div class="">
+            <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost btn-circle">
+                    <i class="fa-solid fa-bars"></i>
+                  </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class=" gap-2">
+              <img class="w-8 lg:w-14 " src="images/logo.png" alt="">
+            <a class=" font-lato font-bold text-black lg:text-white text-xl lg:text-4xl  normal-case"> Fruit Burst</a>
+          </div>
+          <div class="hidden lg:flex relative">
+            <input type="text" placeholder="Search here" class="px-6 py-3 rounded-[50px]">
+            <i class="fa-solid fa-magnifying-glass absolute top-4 right-4"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
